@@ -211,7 +211,7 @@ const Home = ({aboutRef, projectsRef, contactRef}) => {
         <ProjectCard link="/project/lol" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/lol_main.JPG?raw=true'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
         <ProjectCard link="/project/simplepost" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/SP_auth.JPG?raw=true'} text="Simple Posting" skills={spSkills} inProgress={false} />
         <ProjectCard link="/project/instaclone" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/insta_clone.JPG?raw=true'} text="Instagram Clone" skills={instaSkills} inProgress={false} />
-        <ProjectCard link="/project/fourtop" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourTop_home.JPG?raw=true'} text="Four Top" skills={fourtopSkills} inProgress={true} />
+        <ProjectCard link="/project/fourtop" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourTop_home.png?raw=true'} text="Four Top" skills={fourtopSkills} inProgress={true} />
       </ProjectsContainer>
     </Projects>
     <Contact ref={contactRef}>
