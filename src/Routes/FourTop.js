@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { GitHub } from "../Components/Icons";
 import ProjectImg from "../Components/ProjectImg";
 import {Helmet} from 'react-helmet';
+import { useEffect } from "react";
 
 const Container = styled.div`
   min-height: calc(100vh - 80px);
@@ -74,6 +75,9 @@ const GitLink = styled.div`
 //--------------------------------------------------------------STYLED COMPONENT END-------------------------------------------------------
 
 const FourTop = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   return <>
   <Helmet title="Portfolio | Four Top" />
     <Container>
