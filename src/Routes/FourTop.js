@@ -78,7 +78,7 @@ const FourTop = () => {
   <Helmet title="Portfolio | Four Top" />
     <Container>
       <Title>Four Top</Title>
-      <ProjectImg src="/projectImg/fourtop/home.png" text="Four Top" />
+      <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/home.png?raw=true" text="Four Top" />
       <TextContainer>
         <TextTitle>Prisma</TextTitle>
         <Text>Backend는 Prisma1을 사용하였다.</Text>
@@ -92,32 +92,32 @@ const FourTop = () => {
         <Text>이메일은 nodemailer, nodemailer-mailgun-transport를 사용하여 전송하였다.</Text>
         <Text>Alert 대신 Toastify를 사용하여 알림을 준다.</Text>
       </TextContainer>
-      <ProjectImg src="/projectImg/fourtop/localstorage.jpg" text="Token" />
+      <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/localstorage.JPG?raw=true" text="Token" />
       <TextContainer>
         <TextTitle>Gallery</TextTitle>
         <Text>아직은 업로드시에 무료, 유료를 구분하지 않았기 때문에 전부 무료로 게시물이 넘어간다. &#40;prisma에서 Post 스키마에 payment를 추가해주어 구분해주면 될 것 같다&#41;</Text>
         <Text>GraphQL pagination을 사용하여 User를 3명씩 보여준다.</Text>
       </TextContainer>
-      <ProjectImg src="/projectImg/fourtop/gallery.png" text="Gallery" />
+      <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/gallery.png?raw=true" text="Gallery" />
       <TextContainer>
         <TextTitle>Company</TextTitle>
         <Text>useState를 사용하여 소개, 인사말, 비젼 & 미션, 연혁 탭을 클릭하면 각각의 컴포넌트를 보여준다.</Text>
       </TextContainer>
-      <ProjectImg src="/projectImg/fourtop/company.jpg" text="Company" />
+      <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/company.JPG?raw=true" text="Company" />
       <TextContainer>
         <TextTitle>Upload</TextTitle>
         <Text>사진은 AWS S3에 저장을 하고 Prisma의 Post에는 AWS S3에 저장되어있는 사진의 url이 저장되어있다 &#40;multer, multer-s3사용&#41;</Text>
         <Text>이미지 파일을 선택하면 선택한 이미지 파일을 미리보여준다.</Text>
         <Text>Gallery에서 게시물을 눌렀을때 상세 페이지 보여줄 예정이다.</Text>
       </TextContainer>
-      <ProjectImg src="/projectImg/fourtop/upload.jpg" text="Upload" />
+      <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/upload.JPG?raw=true" text="Upload" />
       <TextContainer>
         <TextTitle>Profile</TextTitle>
         <Text>사용자의 게시물 수, 팔로워 수, 팔로잉 수 등을 볼 수 있다.</Text>
         <Text>프로필이 자신인 경우에는 edit profile이 보여 프로필 변경이 가능하다.</Text>
         <Text>팔로워와 팔로우를 누르면 팔로워와 팔로우하는 사용자들을 오른쪽에 보이도록 하였다.</Text>
       </TextContainer>
-      <ProjectImg src="/projectImg/fourtop/profile.jpg" text="Profile" />
+      <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/profile.JPG?raw=true" text="Profile" />
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>

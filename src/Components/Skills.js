@@ -74,22 +74,22 @@ const SkillsCard = () => {
       <FrontendContainer>
         <Text>Front-end</Text>
         <SkillContainer>
-          <Skill src="/skillsImg/html.png" />
-          <Skill src="/skillsImg/css.png" />
-          <Skill src="/skillsImg/javascript.png" />
-          <Skill src="/skillsImg/react.png" />
-          <Skill src="/skillsImg/styledComponent.png" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/html.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/css.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/javascript.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/react.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/styledComponent.png?raw=true" />
         </SkillContainer>
       </FrontendContainer>
       <BackendContainer>
         <Text>Back-end</Text>
         <SkillContainer>
-          <Skill src="/skillsImg/express.png" />
-          <Skill src="/skillsImg/mongodb.png" />
-          <Skill src="/skillsImg/graphql.png" />
-          <Skill src="/skillsImg/apollo.png" />
-          <Skill src="/skillsImg/prisma.png" />
-          <Skill src="/skillsImg/passport.png" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/express.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/mongodb.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/graphql.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/apollo.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/prisma.png?raw=true" />
+          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/passport.png?raw=true" />
         </SkillContainer>
       </BackendContainer>
     </Container>
