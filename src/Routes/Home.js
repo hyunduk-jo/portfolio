@@ -208,8 +208,8 @@ const Home = ({aboutRef, projectsRef, contactRef}) => {
     <Projects ref={projectsRef}>
       <Title>Projects</Title>
       <ProjectsContainer>
-        <ProjectCard link="/project/lol" src={'/projectImg/lol_main.jpg'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
-        <ProjectCard link="/project/simplepost" src={'/projectImg/SP_auth.jpg'} text="Simple Posting" skills={spSkills} inProgress={false} />
+        <ProjectCard link="/project/lol" src={'portfolio/projectImg/lol_main.jpg'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
+        <ProjectCard link="/project/simplepost" src={'/portfolio/projectImg/SP_auth.jpg'} text="Simple Posting" skills={spSkills} inProgress={false} />
         <ProjectCard link="/project/instaclone" src={'/projectImg/insta_clone.jpg'} text="Instagram Clone" skills={instaSkills} inProgress={false} />
         <ProjectCard link="/project/fourtop" src={'/projectImg/fourTop_home.png'} text="Four Top" skills={fourtopSkills} inProgress={true} />
       </ProjectsContainer>
