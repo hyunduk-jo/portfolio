@@ -13,7 +13,7 @@ const AppRouter = () => {
   const projectsRef = useRef();
   const contactRef = useRef();
   return <>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Switch>
         <Route exact path='/' component={() => <Home aboutRef={aboutRef} projectsRef={projectsRef} contactRef={contactRef} />} />
 
