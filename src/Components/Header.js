@@ -83,7 +83,7 @@ const Header = ({aboutRef, projectsRef, contactRef}) => {
   <ContainerColumn></ContainerColumn>
   <ContainerColumn>
     <ul>
-      <li onClick={() => window.scrollTo({top: aboutRef.current.offsetTop - 80, left: 0, behavior: 'smooth'})}>Home</li>
+      <li onClick={() => window.scrollTo({top: aboutRef.current.offsetTop - 80, left: 0, behavior: 'smooth'})}>About</li>
       <li onClick={() => window.scrollTo({top: projectsRef.current.offsetTop - 80, left: 0, behavior: 'smooth'})}>Projects</li>
       <li onClick={() => window.scrollTo({top: contactRef.current.offsetTop - 80, left: 0, behavior: 'smooth'})}>Contact</li>
     </ul>
