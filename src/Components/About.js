@@ -12,9 +12,9 @@ const Container = styled.div`
 
 const Greet = styled.div`
   font-weight: 600;
-  font-size: calc(4vw + 1vh);
+  font-size: calc(4vw + 3vh);
   @media screen and (max-width: 480px){
-    font-size: calc(1vw + 4vh);
+    font-size: calc(3vw + 4vh);
   }
 `;
 
@@ -23,7 +23,7 @@ const Message = styled.div`
   align-items: center;
   font-size: calc(3vw + 1vh);
   @media screen and (max-width: 480px){
-    font-size: calc(1vw + 3vh);
+    font-size: calc(1vw + 4vh);
   }
   font-weight: 600;
 `;
@@ -32,7 +32,7 @@ const AboutCard = () => {
   return <>
     <Container>
       <Greet>Hello,<br />I'm Hyunduk.</Greet>
-      <Message>I'm a frontend developer and wants to be a full-stack developer.<br /> React is what I use for the frontend and use Express for the backend.</Message>
+      <Message>I'm a frontend developer and also wants to be a full-stack developer.</Message>
     </Container>
   </>
 }
