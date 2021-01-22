@@ -32,7 +32,7 @@ const AboutCard = () => {
   return <>
     <Container>
       <Greet>Hello,<br />I'm Hyunduk.</Greet>
-      <Message>I'm a frontend developer and wants to be a full-stack developer. React is what I use for the frontend and use Express for the backend.</Message>
+      <Message>I'm a frontend developer and wants to be a full-stack developer.<br /> React is what I use for the frontend and use Express for the backend.</Message>
     </Container>
   </>
 }

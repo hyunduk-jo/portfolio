@@ -3,9 +3,11 @@ import styled from "styled-components";
 
 const HeaderContainer = styled.header`
   display: flex;
+  width: 100vw;
   height: 80px;
   position: sticky;
   top: 0px;
+  left: 0px;
   background-color: white;
   z-index: 10;
   box-shadow: 0 0 5px black;

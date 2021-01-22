@@ -84,6 +84,13 @@ const FourTop = () => {
       <Title>Four Top</Title>
       <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourtop/home.png?raw=true" text="Four Top" />
       <TextContainer>
+        <TextTitle>
+          Intro
+        </TextTitle>
+        <Text>3D 프린터 커뮤니티 및 렌탈 서비스를 하는 프로젝트이다.</Text>
+        
+      </TextContainer>
+      <TextContainer>
         <TextTitle>Prisma</TextTitle>
         <Text>Backend는 Prisma1을 사용하였다.</Text>
         <Text>인스타 클론과 마찬가지로 GraphQL-yoga를 사용하였고 파일을 업로드 할 때는 GraphQLServer에 내장되어있는 express를 사용하여 REST로 업로드 해주었다.</Text>

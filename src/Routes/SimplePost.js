@@ -85,6 +85,7 @@ const SimplePost = () => {
       <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/simpleposting/login.JPG?raw=true" text="Simple Posting" />
       <TextContainer>
         <TextTitle>Intro</TextTitle>
+        <Text>간단한 텍스트 게시물을 올리고 좋아요, 댓글 기능이 있는 프로젝트이다.</Text>
         <Text>이 프로젝트는 MongoDB, Express, React, GraphQL, Apollo Server를 사용하였다.</Text>
         <Text>Login은 passport, jsonwebtoken을 사용하였다.</Text>
       </TextContainer>

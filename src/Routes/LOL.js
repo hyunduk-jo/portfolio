@@ -82,7 +82,13 @@ const LOL = () => {
   <Helmet title="Portfolio | LOL Record" />
     <Container>
       <Title>LOL Record</Title>
-      <ProjectImg src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/lolrecord/firstpage.JPG?raw=true'} text="롤 전적 검색" />
+      <ProjectImg src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/lolrecord/firstpage.JPG?raw=true'} text="롤 전적 검색 첫 화면" />
+      <TextContainer>
+        <TextTitle>
+          Intro
+        </TextTitle>
+        <Text>리그 오브 레전드 전적 검색기로 소환사명으로 검색하여 최근 100 게임의 결과를 보여준다.</Text>
+      </TextContainer>
       <TextContainer>
         <TextTitle>
           Getting API

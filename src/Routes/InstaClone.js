@@ -85,6 +85,7 @@ const InstaClone = () => {
       <ProjectImg src="https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/instaclone/feed.JPG?raw=true" text="인스타 클론" />
       <TextContainer>
         <TextTitle>Intro</TextTitle>
+        <Text>인스타그램 클론 코딩하였다.</Text>
         <Text>이 프로젝트는 Prisma1, React, GraphQL, Apollo Server를 사용하였다.</Text>
         <Text>Login은 passport, jsonwebtoken을 사용하였다.</Text>
       </TextContainer>
