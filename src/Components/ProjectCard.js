@@ -98,7 +98,7 @@ const ProjectCard = ({src, text, skills, inProgress, link}) => {
       }
       <SkillsContainer className="SkillsContainer">
         {
-          skills.map((skill, i) => <Skill key={i} src={`https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/${skill}.png?raw=true`} />)
+          skills.map((skill, i) => <Skill key={i} src={`../../portfolio/skillsImg/${skill}.png`} />)
         }
       </SkillsContainer>
     </Container></Link> 

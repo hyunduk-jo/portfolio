@@ -74,22 +74,22 @@ const SkillsCard = () => {
       <FrontendContainer>
         <Text>Front-end</Text>
         <SkillContainer>
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/html.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/css.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/javascript.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/react.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/styledComponent.png?raw=true" />
+          <Skill src="../../portfolio/skillsImg/html.png" />
+          <Skill src="../../portfolio/skillsImg/css.png" />
+          <Skill src="../../portfolio/skillsImg/javascript.png" />
+          <Skill src="../../portfolio/skillsImg/react.png" />
+          <Skill src="../../portfolio/skillsImg/styledComponent.png" />
         </SkillContainer>
       </FrontendContainer>
       <BackendContainer>
         <Text>Back-end</Text>
         <SkillContainer>
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/express.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/mongodb.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/graphql.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/apollo.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/prisma.png?raw=true" />
-          <Skill src="https://github.com/hyunduk-jo/portfolio/blob/master/public/skillsImg/passport.png?raw=true" />
+          <Skill src="../../portfolio/skillsImg/express.png" />
+          <Skill src="../../portfolio/skillsImg/mongodb.png" />
+          <Skill src="../../portfolio/skillsImg/graphql.png" />
+          <Skill src="../../portfolio/skillsImg/apollo.png" />
+          <Skill src="../../portfolio/skillsImg/prisma.png" />
+          <Skill src="../../portfolio/skillsImg/passport.png" />
         </SkillContainer>
       </BackendContainer>
     </Container>

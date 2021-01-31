@@ -72,77 +72,73 @@ const GitLink = styled.div`
     }
   }
 `;
+
+
 //--------------------------------------------------------------STYLED COMPONENT END-------------------------------------------------------
 
-const LOL = () => {
+const CoinChart = () => {
   useEffect(() => {
     window.scrollTo(0,0);
   },[])
   return <>
-  <Helmet title="Portfolio | LOL Record" />
+  <Helmet title="Portfolio | Coin Price Chart" />
     <Container>
-      <Title>LOL Record</Title>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/firstpage.JPG'} text="롤 전적 검색 첫 화면" />
+      <Title>Coin Price Chart</Title>
+      <ProjectImg src={'../../portfolio/projectImg/coin_main.JPG'} text="코인 차트 첫 화면" />
       <TextContainer>
         <TextTitle>
           Intro
         </TextTitle>
-        <Text>리그 오브 레전드 전적 검색기로 소환사명으로 검색하여 최근 100 게임의 결과를 보여준다.</Text>
+        <Text>Coingecko에서 제공하는 API를 이용하여 axios로 데이터를 받아오고 코인의 정보를 보여주는 React 프로젝트이다.</Text>
       </TextContainer>
       <TextContainer>
         <TextTitle>
           Getting API
         </TextTitle>
         <Text>
-          소환사 이름으로 검색하여 소환사의 최근 100게임의 결과를 보여주기 위해서는 <a href="https://developer.riotgames.com/">https://developer.riotgames.com/</a>에 로그인 후 API key를 발급받아야 한다.
+          <a href="https://www.coingecko.com/en/api#explore-api">https://www.coingecko.com/en/api#explore-api</a>에서 따로 로그인 없이 api를 사용할 수 있다.
         </Text>
         <Text>
-          Axios를 이용하여 소환사의 정보를 가져온다.
+          Axios를 이용하여 코인의 정보를 가져온다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/developerpage.JPG'} text="Riot Developer Portal" />
+      <ProjectImg src={'../../portfolio/projectImg/coinchart/coingecko.JPG'} text="Coin Gecko API" />
       <TextContainer>
         <TextTitle>
           Using API
         </TextTitle>
         <Text>
-          Getting API에서 axios를 통해 가져온 소환사의 정보를 이용하여 Riot Games 에서 제공하는 API를 이용해 게임에 대한 기록들을 가져온다.
+          Getting API에서 axios를 통해 가져온 코인들의 정보를 이용하여 코인의 이미지, market_cap, 현재 가격 등을 표에 표시해준다.
         </Text>
         <Text>
-          League에서는 소환사 정보중 encryptedSummonerId를 이용하여 솔로 랭크와 팀 랭크에 대한 정보를 가져온다.
-        </Text>
-        <Text>
-          Match에서 최근 100게임의 gameId와 자신이 사용한 championId 등을 가져온다.
-        </Text>
-        <Text>
-          위에서 가져온 gameId를 이용하여 각각의 게임에 대한 통계를 가져온다.
+          검색 창에 코인의 이름을 입력하면 코인이 있으면 axios로 정보를 가져오고, 코인이 없으면 coin not found를 출력해준다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/apipage.JPG'} text="League of Legends apis" />
+      <ProjectImg src={'../../portfolio/projectImg/coinchart/search.JPG'} text="코인 검색 결과" />
       <TextContainer>
         <TextTitle>
           Result
         </TextTitle>
         <Text>
-          랭크 및 아이콘과 각 게임에서 사용한 아이템, 챔피언 등의 이미지를 가져온다.
+          코인을 클릭하면 코인에 대한 차트와 설명을 볼 수 있다.
         </Text>
         <Text>
-          각 게임에 대한 정보와 아이템, 챔피언, 참가자 등을 불러온 이미지와 매칭하여 결과로 나타내준다.
+          select 태그를 이용하여 1일부터 3년까지의 차트를 볼 수 있도록 하였다.
         </Text>
         <Text>
-          게임 결과에 따라 승리시 붉은색으로 나타내고 패배시 푸른색으로 나타내준다.
+          코인 차트는 Chart JS를 사용하였다.
         </Text>
       </TextContainer>
-      <ProjectImg src={'../../portfolio/projectImg/lolrecord/searched.JPG'} text="소환사 검색 결과" />
+      <ProjectImg src={'../../portfolio/projectImg/coinchart/detail.png'} text="코인 상세 화면" />
       <GitLink>
         <GitHub size="48" />
         <span>Github Link</span>
-        <a href="https://github.com/hyunduk-jo/lol-record-server">SERVER</a>
+        <a href="https://github.com/hyunduk-jo/coin-chart">CLIENT</a>
         <span>/</span>
-        <a href="https://github.com/hyunduk-jo/lol-record-client">CLIENT</a>
+        <a href="https://hyunduk-jo.github.io/coin-chart">GH_PAGES</a>
       </GitLink>
     </Container>
   </>
 }
 
-export default LOL;
+export default CoinChart;

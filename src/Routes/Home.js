@@ -150,10 +150,14 @@ const Text = styled.div`
   @media screen and (max-width: 480px){
     font-size: 15px;
   }
+  span{
+    color: blue;
+  }
 `;
 
 const Home = ({aboutRef, projectsRef, contactRef}) => {
   const lolSkills = ['express', 'react'];
+  const coinSkills = ['react'];
   const spSkills = ['mongodb', 'graphql', 'passport', 'express', 'react'];
   const instaSkills = ['prisma', 'apollo', 'react', 'graphql', 'passport'];
   const fourtopSkills = ['prisma', 'apollo', 'react', 'graphql', 'passport'];
@@ -208,10 +212,11 @@ const Home = ({aboutRef, projectsRef, contactRef}) => {
     <Projects ref={projectsRef}>
       <Title>Projects</Title>
       <ProjectsContainer>
-        <ProjectCard link="/project/lol" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/lol_main.JPG?raw=true'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
-        <ProjectCard link="/project/simplepost" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/SP_auth.JPG?raw=true'} text="Simple Posting" skills={spSkills} inProgress={false} />
-        <ProjectCard link="/project/instaclone" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/insta_clone.JPG?raw=true'} text="Instagram Clone" skills={instaSkills} inProgress={false} />
-        <ProjectCard link="/project/fourtop" src={'https://github.com/hyunduk-jo/portfolio/blob/master/public/projectImg/fourTop_home.png?raw=true'} text="Four Top" skills={fourtopSkills} inProgress={true} />
+        <ProjectCard link="/project/lol" src={'../../portfolio/projectImg/lol_main.JPG'} text="LOL Record Search" skills={lolSkills} inProgress={false} />
+        <ProjectCard link="/project/coin" src={'../../portfolio/projectImg/coin_main.JPG'} text="Coin Price Chart" skills={coinSkills} inProgress={false} />
+        <ProjectCard link="/project/simplepost" src={'../../portfolio/projectImg/SP_auth.JPG'} text="Simple Posting" skills={spSkills} inProgress={false} />
+        <ProjectCard link="/project/instaclone" src={'../../portfolio/projectImg/insta_clone.JPG'} text="Instagram Clone" skills={instaSkills} inProgress={false} />
+        <ProjectCard link="/project/fourtop" src={'../../portfolio/projectImg/fourTop_home.png'} text="Four Top" skills={fourtopSkills} inProgress={true} />
       </ProjectsContainer>
     </Projects>
     <Contact ref={contactRef}>
@@ -219,11 +224,11 @@ const Home = ({aboutRef, projectsRef, contactRef}) => {
       <ContactContainer>
         <EmailContainer>
           <Email size="40" />
-          <Text onClick={() => setMail(!mail)}>johd321@naver.com</Text>
+          <Text onClick={() => setMail(!mail)}><span>johd321@naver.com</span></Text>
         </EmailContainer>
         <GitHubContainer>
           <a href='https://github.com/hyunduk-jo'><GitHub size="40" /></a>
-          <Text><a href='https://github.com/hyunduk-jo'>https://github.com/hyunduk-jo</a></Text>
+          <Text><a href='https://github.com/hyunduk-jo'><span>https://github.com/hyunduk-jo</span></a></Text>
         </GitHubContainer>
       </ContactContainer>
       {

@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom"
+import { HashRouter, Route, Switch } from "react-router-dom"
+import CoinChart from "../Routes/CoinChart";
 import FourTop from "../Routes/FourTop";
 import Home from "../Routes/Home";
 import InstaClone from "../Routes/InstaClone";
@@ -13,18 +14,19 @@ const AppRouter = () => {
   const projectsRef = useRef();
   const contactRef = useRef();
   return <>
-    <BrowserRouter basename="/portfolio">
+    <HashRouter>
       <Switch>
         <Route exact path='/' component={() => <Home aboutRef={aboutRef} projectsRef={projectsRef} contactRef={contactRef} />} />
 
-        <Route path='/project/lol' component={() => <><ProjectHeader link={['/project/simplepost','/project/instaclone','/project/fourtop']} /><LOL /></>} />
-        <Route path='/project/simplepost' component={() => <><ProjectHeader link={['/project/lol','/project/instaclone','/project/fourtop']} /><SimplePost /></>} />
-        <Route path='/project/instaclone' component={() => <><ProjectHeader link={['/project/lol','/project/simplepost','/project/fourtop']} /><InstaClone /></>} />
-        <Route path='/project/fourtop' component={() => <><ProjectHeader link={['/project/lol','/project/simplepost','/project/instaclone']} /><FourTop /></>} />
+        <Route path='/project/lol' component={() => <><ProjectHeader link={['/project/coin','/project/simplepost','/project/instaclone','/project/fourtop']} /><LOL /></>} />
+        <Route path='/project/coin' component={() => <><ProjectHeader link={['/project/lol','/project/simplepost','/project/instaclone','/project/fourtop']} /><CoinChart /></>} />
+        <Route path='/project/simplepost' component={() => <><ProjectHeader link={['/project/lol','/project/coin','/project/instaclone','/project/fourtop']} /><SimplePost /></>} />
+        <Route path='/project/instaclone' component={() => <><ProjectHeader link={['/project/lol','/project/coin','/project/simplepost','/project/fourtop']} /><InstaClone /></>} />
+        <Route path='/project/fourtop' component={() => <><ProjectHeader link={['/project/lol','/project/coin','/project/simplepost','/project/instaclone']} /><FourTop /></>} />
 
         <Route path="*" component={NotFound} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </>
 }
 

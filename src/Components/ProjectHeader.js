@@ -66,6 +66,7 @@ const ProjectHeader = ({link}) => {
       <li><Link to={link[0]}>{link[0].split('project/')[1]}</Link></li>
       <li><Link to={link[1]}>{link[1].split('project/')[1]}</Link></li>
       <li><Link to={link[2]}>{link[2].split('project/')[1]}</Link></li>
+      <li><Link to={link[3]}>{link[3].split('project/')[1]}</Link></li>
     </ul>
   </ContainerColumn>
 </HeaderContainer>
