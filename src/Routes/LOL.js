@@ -76,10 +76,10 @@ const GitLink = styled.div`
 
 const LOL = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return <>
-  <Helmet title="Portfolio | LOL Record" />
+    <Helmet title="Portfolio | LOL Record" />
     <Container>
       <Title>LOL Record</Title>
       <ProjectImg src={'../../portfolio/projectImg/lolrecord/firstpage.JPG'} text="롤 전적 검색 첫 화면" />
@@ -140,6 +140,8 @@ const LOL = () => {
         <a href="https://github.com/hyunduk-jo/lol-record-server">SERVER</a>
         <span>/</span>
         <a href="https://github.com/hyunduk-jo/lol-record-client">CLIENT</a>
+        <span>/</span>
+        <a href="https://lol-record.netlify.com">LINK</a>
       </GitLink>
     </Container>
   </>
